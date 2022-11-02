@@ -46,7 +46,7 @@ class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
     */
     private var resultLauncherForCamara =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-            val data: Intent? = result.data
+            val data: Intent? = result.data // get data from intent
             if (result.resultCode == Activity.RESULT_OK) {
                 try {
                     val photoUri =
@@ -60,9 +60,7 @@ class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
                         "Can not capture image from camara",
                         Toast.LENGTH_SHORT
                     ).show()
-
                 }
-
             }
         }
 
@@ -323,8 +321,6 @@ class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
         return Uri.parse(file.absolutePath)
 
     }
-
-
 
 
 }
