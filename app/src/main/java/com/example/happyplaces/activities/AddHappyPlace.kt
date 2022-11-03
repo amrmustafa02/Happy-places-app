@@ -34,7 +34,6 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
-
 class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
 
     companion object {
@@ -117,7 +116,10 @@ class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
         // prepare design toolbar
         prepareToolBar()
 
-        // listen to items on screen
+        // set data when activity is open
+        updateTextInDateField()
+
+        // listen items on screen
         binding.dateEdit.setOnClickListener(this)
         binding.addImageText.setOnClickListener(this)
 
@@ -157,7 +159,6 @@ class AddHappyPlace : AppCompatActivity(), View.OnClickListener {
             // put (updateText) here to change time up to date
             updateTextInDateField()
         }
-
 
         // make object from data picker and set its style
         val date = DatePickerDialog(
