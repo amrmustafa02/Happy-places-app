@@ -1,0 +1,29 @@
+[33mcommit abc2d765f25da9f8239f5e5ed38502c8e0db717a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: amr mustafa <amrmustafa6051@gmail.com>
+Date:   Thu Nov 3 05:26:51 2022 +0200
+
+    Database are ready
+
+[33mcommit 529d42ccd6005217b92a194ad3687bfaeb793d7b[m
+Author: amr mustafa <amrmustafa6051@gmail.com>
+Date:   Thu Nov 3 04:38:48 2022 +0200
+
+    add set current date on screen
+
+[33mcommit 930c9c948ccb5d4f96e22b29ac302d6c533295bc[m
+Author: amr mustafa <amrmustafa6051@gmail.com>
+Date:   Wed Nov 2 22:17:59 2022 +0200
+
+    start to make database model
+
+[33mcommit 1c1216c66a3c4a78a5d7b431af1ac67f10e83bb8[m[33m ([m[1;31morigin/new-version-but-not-use-OnActivityResult-method[m[33m, [m[1;32mversion_2[m[33m)[m
+Author: amr mustafa <amrmustafa6051@gmail.com>
+Date:   Mon Oct 31 00:51:09 2022 +0200
+
+    update open gallery and camara by using API 29
+
+[33mcommit e4fc6b0ead463285aea20d32708d72025527fae8[m
+Author: amr mustafa <amrmustafa6051@gmail.com>
+Date:   Mon Oct 31 00:13:44 2022 +0200
+
+    app with {onactivityresult is deprecated}
